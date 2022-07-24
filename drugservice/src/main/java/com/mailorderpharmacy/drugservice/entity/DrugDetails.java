@@ -2,15 +2,12 @@ package com.mailorderpharmacy.drugservice.entity;
 
 import java.util.ArrayList;
 import javax.persistence.OneToMany;
-import javax.persistence.Table;
-
 import java.util.List;
 import java.util.Date;
 import javax.persistence.Id;
 import javax.persistence.Entity;
 
 @Entity
-@Table
 public class DrugDetails
 {
     @Id
